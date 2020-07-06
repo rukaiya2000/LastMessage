@@ -1,0 +1,53 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #88d5e9;
+    color: #333;
+    font-family: 'calbiri' ,  'sans-serif';
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.container {
+text-align: center;
+padding: 2rem;
+border-radius: 7px;
+background: #fff;
+flex: 0 0 80%;
+}
+button {
+    display: block;
+    padding: 0.5rem 1rem;
+    margin: 1.5rem auto;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    background: #6cc3d8;
+    font-size:  2rem;
+    cursor : pointer;
+    text-transform: capitalize;
+
+}
+button:hover {
+opacity: 0.8;
+cursor: pointer;
+}
+input[type=text] {
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 5px;
+    font-size:  1.5rem;
+    border: 3px solid #88d5e9;
+    outline: none;
+}
+input[type=text]:focus {
+    box-shadow: 0 0 10px #88d5e9;
+
+}
+#messageOut {
+    margin: 1rem;
+    color: #88d5e9;
+
+}
